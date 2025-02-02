@@ -10,6 +10,8 @@ class Solution{
         int i=0;
         for(int el:a) v[i++] = el;
         for(int el:b) v[i++] = el;
+        // make_heap(v.begin(), v.end());
+        // return v;
         Heap h(v);
         return h.getHeap();
     }
