@@ -83,4 +83,7 @@ class Heap {
             }
             cout << endl;
         }
+        vector<int> getHeap() {
+            return this->heap;
+        }
 };

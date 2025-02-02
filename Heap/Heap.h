@@ -23,6 +23,7 @@ class Heap {
         bool empty(); // Check if heap is empty
         int top(); // Get top element of heap
         void print(); // Print heap elements
+        vector<int> getHeap(); // return the current heap to the user
 };
 
 #endif // HEAP_H
